@@ -1,0 +1,1095 @@
+{
+ "max_error": {
+  "builtin:ease-cubic-accelerate": 3.9e-05,
+  "builtin:ease-cubic-decelerate": 3.9e-05,
+  "builtin:ease-cubic-s-curve": 1.9e-05,
+  "builtin:ease-exponential-accelerate": 0.004229,
+  "builtin:ease-exponential-decelerate": 0.004229,
+  "builtin:ease-exponential-s-curve": 0.002114,
+  "builtin:ease-quadratic-accelerate": 2.5e-05,
+  "builtin:ease-quadratic-decelerate": 2.5e-05,
+  "builtin:ease-quadratic-s-curve": 1.2e-05,
+  "builtin:ease-quartic-accelerate": 0.00111,
+  "builtin:ease-quartic-decelerate": 0.00111,
+  "builtin:ease-quartic-s-curve": 0.000555,
+  "builtin:ease-quintic-accelerate": 0.002284,
+  "builtin:ease-quintic-decelerate": 0.002284,
+  "builtin:ease-quintic-s-curve": 0.001142,
+  "builtin:ease-sine-accelerate": 6.2e-05,
+  "builtin:ease-sine-decelerate": 6.2e-05,
+  "builtin:ease-sine-s-curve": 3.1e-05
+ },
+ "recipes": [
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:ease-sine-accelerate",
+   "kind": "ease",
+   "name": "Sine Accelerate",
+   "payload": {
+    "curve": {
+     "knots": [
+      {
+       "in": null,
+       "out": [
+        0.0,
+        0.3619
+       ],
+       "smooth": true,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "in": [
+        1.5707963267948966,
+        0.3261
+       ],
+       "out": null,
+       "smooth": true,
+       "x": 1.0,
+       "y": 1.0
+      }
+     ]
+    }
+   },
+   "tags": [
+    "sine",
+    "accelerate"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:ease-sine-decelerate",
+   "kind": "ease",
+   "name": "Sine Decelerate",
+   "payload": {
+    "curve": {
+     "knots": [
+      {
+       "in": null,
+       "out": [
+        1.5707963267948966,
+        0.3261
+       ],
+       "smooth": true,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "in": [
+        0.0,
+        0.3619
+       ],
+       "out": null,
+       "smooth": true,
+       "x": 1.0,
+       "y": 1.0
+      }
+     ]
+    }
+   },
+   "tags": [
+    "sine",
+    "decelerate"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:ease-sine-s-curve",
+   "kind": "ease",
+   "name": "Sine S-Curve",
+   "payload": {
+    "curve": {
+     "knots": [
+      {
+       "in": null,
+       "out": [
+        0.0,
+        0.3619
+       ],
+       "smooth": true,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "in": [
+        1.5707963267948966,
+        0.3261
+       ],
+       "out": [
+        1.5707963267948966,
+        0.3261
+       ],
+       "smooth": true,
+       "x": 0.5,
+       "y": 0.5
+      },
+      {
+       "in": [
+        0.0,
+        0.3619
+       ],
+       "out": null,
+       "smooth": true,
+       "x": 1.0,
+       "y": 1.0
+      }
+     ]
+    }
+   },
+   "tags": [
+    "sine",
+    "s-curve"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:ease-quadratic-accelerate",
+   "kind": "ease",
+   "name": "Quadratic Accelerate",
+   "payload": {
+    "curve": {
+     "knots": [
+      {
+       "in": null,
+       "out": [
+        0.0,
+        0.3333
+       ],
+       "smooth": true,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "in": [
+        2.0,
+        0.3333
+       ],
+       "out": null,
+       "smooth": true,
+       "x": 1.0,
+       "y": 1.0
+      }
+     ]
+    }
+   },
+   "tags": [
+    "quadratic",
+    "accelerate"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:ease-quadratic-decelerate",
+   "kind": "ease",
+   "name": "Quadratic Decelerate",
+   "payload": {
+    "curve": {
+     "knots": [
+      {
+       "in": null,
+       "out": [
+        2.0,
+        0.3333
+       ],
+       "smooth": true,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "in": [
+        0.0,
+        0.3333
+       ],
+       "out": null,
+       "smooth": true,
+       "x": 1.0,
+       "y": 1.0
+      }
+     ]
+    }
+   },
+   "tags": [
+    "quadratic",
+    "decelerate"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:ease-quadratic-s-curve",
+   "kind": "ease",
+   "name": "Quadratic S-Curve",
+   "payload": {
+    "curve": {
+     "knots": [
+      {
+       "in": null,
+       "out": [
+        0.0,
+        0.3333
+       ],
+       "smooth": true,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "in": [
+        2.0,
+        0.3333
+       ],
+       "out": [
+        2.0,
+        0.3333
+       ],
+       "smooth": true,
+       "x": 0.5,
+       "y": 0.5
+      },
+      {
+       "in": [
+        0.0,
+        0.3333
+       ],
+       "out": null,
+       "smooth": true,
+       "x": 1.0,
+       "y": 1.0
+      }
+     ]
+    }
+   },
+   "tags": [
+    "quadratic",
+    "s-curve"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:ease-cubic-accelerate",
+   "kind": "ease",
+   "name": "Cubic Accelerate",
+   "payload": {
+    "curve": {
+     "knots": [
+      {
+       "in": null,
+       "out": [
+        0.0,
+        0.3333
+       ],
+       "smooth": true,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "in": [
+        3.0,
+        0.3333
+       ],
+       "out": null,
+       "smooth": true,
+       "x": 1.0,
+       "y": 1.0
+      }
+     ]
+    }
+   },
+   "tags": [
+    "cubic",
+    "accelerate"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:ease-cubic-decelerate",
+   "kind": "ease",
+   "name": "Cubic Decelerate",
+   "payload": {
+    "curve": {
+     "knots": [
+      {
+       "in": null,
+       "out": [
+        3.0,
+        0.3333
+       ],
+       "smooth": true,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "in": [
+        0.0,
+        0.3333
+       ],
+       "out": null,
+       "smooth": true,
+       "x": 1.0,
+       "y": 1.0
+      }
+     ]
+    }
+   },
+   "tags": [
+    "cubic",
+    "decelerate"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:ease-cubic-s-curve",
+   "kind": "ease",
+   "name": "Cubic S-Curve",
+   "payload": {
+    "curve": {
+     "knots": [
+      {
+       "in": null,
+       "out": [
+        0.0,
+        0.3333
+       ],
+       "smooth": true,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "in": [
+        3.0,
+        0.3333
+       ],
+       "out": [
+        3.0,
+        0.3333
+       ],
+       "smooth": true,
+       "x": 0.5,
+       "y": 0.5
+      },
+      {
+       "in": [
+        0.0,
+        0.3333
+       ],
+       "out": null,
+       "smooth": true,
+       "x": 1.0,
+       "y": 1.0
+      }
+     ]
+    }
+   },
+   "tags": [
+    "cubic",
+    "s-curve"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:ease-quartic-accelerate",
+   "kind": "ease",
+   "name": "Quartic Accelerate",
+   "payload": {
+    "curve": {
+     "knots": [
+      {
+       "in": null,
+       "out": [
+        0.0,
+        0.4511
+       ],
+       "smooth": true,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "in": [
+        4.0,
+        0.2618
+       ],
+       "out": null,
+       "smooth": true,
+       "x": 1.0,
+       "y": 1.0
+      }
+     ]
+    }
+   },
+   "tags": [
+    "quartic",
+    "accelerate"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:ease-quartic-decelerate",
+   "kind": "ease",
+   "name": "Quartic Decelerate",
+   "payload": {
+    "curve": {
+     "knots": [
+      {
+       "in": null,
+       "out": [
+        4.0,
+        0.2618
+       ],
+       "smooth": true,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "in": [
+        0.0,
+        0.4511
+       ],
+       "out": null,
+       "smooth": true,
+       "x": 1.0,
+       "y": 1.0
+      }
+     ]
+    }
+   },
+   "tags": [
+    "quartic",
+    "decelerate"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:ease-quartic-s-curve",
+   "kind": "ease",
+   "name": "Quartic S-Curve",
+   "payload": {
+    "curve": {
+     "knots": [
+      {
+       "in": null,
+       "out": [
+        0.0,
+        0.4511
+       ],
+       "smooth": true,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "in": [
+        4.0,
+        0.2618
+       ],
+       "out": [
+        4.0,
+        0.2618
+       ],
+       "smooth": true,
+       "x": 0.5,
+       "y": 0.5
+      },
+      {
+       "in": [
+        0.0,
+        0.4511
+       ],
+       "out": null,
+       "smooth": true,
+       "x": 1.0,
+       "y": 1.0
+      }
+     ]
+    }
+   },
+   "tags": [
+    "quartic",
+    "s-curve"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:ease-quintic-accelerate",
+   "kind": "ease",
+   "name": "Quintic Accelerate",
+   "payload": {
+    "curve": {
+     "knots": [
+      {
+       "in": null,
+       "out": [
+        0.0,
+        0.536
+       ],
+       "smooth": true,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "in": [
+        5.0,
+        0.2167
+       ],
+       "out": null,
+       "smooth": true,
+       "x": 1.0,
+       "y": 1.0
+      }
+     ]
+    }
+   },
+   "tags": [
+    "quintic",
+    "accelerate"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:ease-quintic-decelerate",
+   "kind": "ease",
+   "name": "Quintic Decelerate",
+   "payload": {
+    "curve": {
+     "knots": [
+      {
+       "in": null,
+       "out": [
+        5.0,
+        0.2167
+       ],
+       "smooth": true,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "in": [
+        0.0,
+        0.536
+       ],
+       "out": null,
+       "smooth": true,
+       "x": 1.0,
+       "y": 1.0
+      }
+     ]
+    }
+   },
+   "tags": [
+    "quintic",
+    "decelerate"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:ease-quintic-s-curve",
+   "kind": "ease",
+   "name": "Quintic S-Curve",
+   "payload": {
+    "curve": {
+     "knots": [
+      {
+       "in": null,
+       "out": [
+        0.0,
+        0.536
+       ],
+       "smooth": true,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "in": [
+        5.0,
+        0.2167
+       ],
+       "out": [
+        5.0,
+        0.2167
+       ],
+       "smooth": true,
+       "x": 0.5,
+       "y": 0.5
+      },
+      {
+       "in": [
+        0.0,
+        0.536
+       ],
+       "out": null,
+       "smooth": true,
+       "x": 1.0,
+       "y": 1.0
+      }
+     ]
+    }
+   },
+   "tags": [
+    "quintic",
+    "s-curve"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:ease-exponential-accelerate",
+   "kind": "ease",
+   "name": "Exponential Accelerate",
+   "payload": {
+    "curve": {
+     "knots": [
+      {
+       "in": null,
+       "out": [
+        0.006775632263538077,
+        0.6339
+       ],
+       "smooth": true,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "in": [
+        6.938247437862991,
+        0.15
+       ],
+       "out": null,
+       "smooth": true,
+       "x": 1.0,
+       "y": 1.0
+      }
+     ]
+    }
+   },
+   "tags": [
+    "exponential",
+    "accelerate"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:ease-exponential-decelerate",
+   "kind": "ease",
+   "name": "Exponential Decelerate",
+   "payload": {
+    "curve": {
+     "knots": [
+      {
+       "in": null,
+       "out": [
+        6.938247437862991,
+        0.15
+       ],
+       "smooth": true,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "in": [
+        0.006775632263538077,
+        0.6339
+       ],
+       "out": null,
+       "smooth": true,
+       "x": 1.0,
+       "y": 1.0
+      }
+     ]
+    }
+   },
+   "tags": [
+    "exponential",
+    "decelerate"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:ease-exponential-s-curve",
+   "kind": "ease",
+   "name": "Exponential S-Curve",
+   "payload": {
+    "curve": {
+     "knots": [
+      {
+       "in": null,
+       "out": [
+        0.006775632263538077,
+        0.6339
+       ],
+       "smooth": true,
+       "x": 0.0,
+       "y": 0.0
+      },
+      {
+       "in": [
+        6.938247437862991,
+        0.15
+       ],
+       "out": [
+        6.938247437862991,
+        0.15
+       ],
+       "smooth": true,
+       "x": 0.5,
+       "y": 0.5
+      },
+      {
+       "in": [
+        0.006775632263538077,
+        0.6339
+       ],
+       "out": null,
+       "smooth": true,
+       "x": 1.0,
+       "y": 1.0
+      }
+     ]
+    }
+   },
+   "tags": [
+    "exponential",
+    "s-curve"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:bounce-heavy-drop",
+   "kind": "bounce",
+   "name": "Heavy Drop",
+   "payload": {
+    "generator": {
+     "kind": "bounce",
+     "params": {
+      "bounces": 1,
+      "restitution": 0.3
+     },
+     "version": 1
+    }
+   },
+   "tags": [
+    "heavy"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:bounce-soft-landing",
+   "kind": "bounce",
+   "name": "Soft Landing",
+   "payload": {
+    "generator": {
+     "kind": "bounce",
+     "params": {
+      "bounces": 3,
+      "restitution": 0.45
+     },
+     "version": 1
+    }
+   },
+   "tags": [
+    "soft"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:bounce-rubber-ball",
+   "kind": "bounce",
+   "name": "Rubber Ball",
+   "payload": {
+    "generator": {
+     "kind": "bounce",
+     "params": {
+      "bounces": 6,
+      "restitution": 0.65
+     },
+     "version": 1
+    }
+   },
+   "tags": [
+    "lively"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:bounce-long-settle",
+   "kind": "bounce",
+   "name": "Long Settle",
+   "payload": {
+    "generator": {
+     "kind": "bounce",
+     "params": {
+      "bounces": 12,
+      "restitution": 0.8
+     },
+     "version": 1
+    }
+   },
+   "tags": [
+    "lively"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:elastic-single-overshoot",
+   "kind": "elastic",
+   "name": "Single Overshoot",
+   "payload": {
+    "generator": {
+     "kind": "elastic",
+     "params": {
+      "damping": 0.4,
+      "oscillations": 1
+     },
+     "version": 1
+    }
+   },
+   "tags": [
+    "soft"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:elastic-gentle-settle",
+   "kind": "elastic",
+   "name": "Gentle Settle",
+   "payload": {
+    "generator": {
+     "kind": "elastic",
+     "params": {
+      "damping": 0.3,
+      "oscillations": 3
+     },
+     "version": 1
+    }
+   },
+   "tags": [
+    "soft"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:elastic-spring-snap",
+   "kind": "elastic",
+   "name": "Spring Snap",
+   "payload": {
+    "generator": {
+     "kind": "elastic",
+     "params": {
+      "damping": 0.15,
+      "oscillations": 6
+     },
+     "version": 1
+    }
+   },
+   "tags": [
+    "lively"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:elastic-loose-wobble",
+   "kind": "elastic",
+   "name": "Loose Wobble",
+   "payload": {
+    "generator": {
+     "kind": "elastic",
+     "params": {
+      "damping": 0.06,
+      "oscillations": 12
+     },
+     "version": 1
+    }
+   },
+   "tags": [
+    "lively"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:wave-gentle-sway",
+   "kind": "wave",
+   "name": "Gentle Sway",
+   "payload": {
+    "generator": {
+     "kind": "wave",
+     "params": {
+      "amplitude": 0.15,
+      "cycles": 2.0,
+      "decay": 0.0,
+      "phase": 0.0
+     },
+     "version": 1
+    }
+   },
+   "tags": [
+    "soft"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:wave-fading-ripple",
+   "kind": "wave",
+   "name": "Fading Ripple",
+   "payload": {
+    "generator": {
+     "kind": "wave",
+     "params": {
+      "amplitude": 0.25,
+      "cycles": 3.0,
+      "decay": 2.0,
+      "phase": 0.0
+     },
+     "version": 1
+    }
+   },
+   "tags": [
+    "decay"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:wave-offset-swing",
+   "kind": "wave",
+   "name": "Offset Swing",
+   "payload": {
+    "generator": {
+     "kind": "wave",
+     "params": {
+      "amplitude": 0.2,
+      "cycles": 2.5,
+      "decay": 0.5,
+      "phase": 90.0
+     },
+     "version": 1
+    }
+   },
+   "tags": [
+    "phase"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:noise-subtle-jitter",
+   "kind": "noise",
+   "name": "Subtle Jitter",
+   "payload": {
+    "generator": {
+     "kind": "noise",
+     "params": {
+      "amplitude": 0.08,
+      "frequency": 8,
+      "seed": 1,
+      "smoothness": 0.8
+     },
+     "version": 1
+    }
+   },
+   "tags": [
+    "soft"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:noise-handheld",
+   "kind": "noise",
+   "name": "Handheld",
+   "payload": {
+    "generator": {
+     "kind": "noise",
+     "params": {
+      "amplitude": 0.2,
+      "frequency": 12,
+      "seed": 42,
+      "smoothness": 0.65
+     },
+     "version": 1
+    }
+   },
+   "tags": [
+    "camera"
+   ]
+  },
+  {
+   "builtin": true,
+   "effects": null,
+   "favorite": false,
+   "id": "builtin:noise-rough-shake",
+   "kind": "noise",
+   "name": "Rough Shake",
+   "payload": {
+    "generator": {
+     "kind": "noise",
+     "params": {
+      "amplitude": 0.25,
+      "frequency": 16,
+      "seed": 7,
+      "smoothness": 0.2
+     },
+     "version": 1
+    }
+   },
+   "tags": [
+    "camera"
+   ]
+  }
+ ],
+ "revision": 2,
+ "schema": "motion_atelier.builtin_recipes",
+ "version": 1
+}

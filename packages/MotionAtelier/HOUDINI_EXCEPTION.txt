@@ -1,0 +1,60 @@
+MotionAtelier Houdini Integration Permission, version 1.0
+
+Additional permission under section 7 of the GNU General Public License, version 3
+
+MotionAtelier is free software: you can redistribute it and/or modify it under the terms
+of the GNU General Public License as published by the Free Software Foundation, either
+version 3 of the License, or (at your option) any later version (the "GPL"; see LICENSE),
+with the following additional permission.
+
+0. Definitions
+
+"MotionAtelier" means the program distributed with this notice, and any work based on
+it, to the extent its copyright holders have applied this permission to it.
+
+"Houdini" means any edition and version of SideFX Houdini, including its command-line,
+batch and engine variants (such as hython and Houdini Engine), together with the Python
+interpreter, libraries and other files that SideFX distributes as part of it.
+
+"Houdini Interfaces" means the interfaces Houdini provides for extending it, including
+the Houdini Object Model ("hou") and other Python modules bundled with Houdini, the
+Python Panel and package mechanisms, and Houdini's bundled Qt binding (PySide2 or
+PySide6) as provided by Houdini.
+
+1. Permission
+
+As a special exception, the copyright holders of MotionAtelier give you permission to
+combine or link MotionAtelier with Houdini through the Houdini Interfaces, to run such a
+combination, and to convey MotionAtelier, modified or unmodified, for use in such a
+combination. The GPL does not require that Houdini, or any part of it, be licensed under
+the GPL or provided in source form because of such a combination.
+
+2. Conditions
+
+(a) Every term of the GPL continues to apply to MotionAtelier itself. When you convey
+    MotionAtelier or a work based on it, you must provide its Corresponding Source,
+    including your modifications, under the GPL.
+
+(b) Houdini remains subject to its own licence terms from SideFX. This permission grants
+    no rights in Houdini, no right to obtain, copy or redistribute any part of Houdini,
+    and no right to circumvent or alter Houdini's licensing.
+
+3. Scope
+
+This permission covers only material whose copyright holders have granted it. It grants
+no exception for any other third-party work, and it does not extend to combining
+MotionAtelier with any non-free program other than Houdini; such combinations are
+governed by the GPL alone.
+
+4. Modified versions and removal
+
+If you modify MotionAtelier, you may extend this permission to your version, but you are
+not obliged to do so. If you do not wish to, delete this permission from your version, as
+section 7 of the GPL allows. A version from which this permission has been removed
+remains available under the GPL alone.
+
+5. Later versions of the GPL
+
+If you choose to apply a later version of the GPL to MotionAtelier, this permission
+continues to apply as an additional permission under that version, to the extent that
+version allows additional permissions.

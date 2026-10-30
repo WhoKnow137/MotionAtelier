@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pythonPanelDocument>
+  <!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+  <!-- With the Houdini integration permission: see LICENSE and HOUDINI_EXCEPTION.txt. -->
+  <interface name="motion_atelier" label="MotionAtelier" icon="MISC_python" showNetworkNavigationBar="false" help_url="">
+    <script><![CDATA[
+# SPDX-License-Identifier: GPL-3.0-or-later
+# With the Houdini integration permission: see LICENSE and HOUDINI_EXCEPTION.txt.
+# MotionAtelier Python Panel entry point. All logic lives in motion_atelier.bootstrap.
+import motion_atelier.bootstrap as _ma_bootstrap
+
+_ma_panel = None
+
+
+def onCreateInterface():
+    global _ma_panel
+    _ma_panel = _ma_bootstrap.create_panel(globals().get("kwargs"))
+    return _ma_panel
+
+
+def onDestroyInterface():
+    global _ma_panel
+    _ma_bootstrap.destroy_panel(_ma_panel)
+    _ma_panel = None
+]]></script>
+    <includeInPaneTabMenu menu_position="300" create_separator="false"/>
+    <includeInToolbarMenu menu_position="300" create_separator="false"/>
+    <help><![CDATA[MotionAtelier: animation-curve shaping for selected keyframes.]]></help>
+  </interface>
+</pythonPanelDocument>

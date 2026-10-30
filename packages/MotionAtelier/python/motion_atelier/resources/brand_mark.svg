@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Motion curve logo</title>
+  <desc id="desc">Minimal editable motion curve logo with a thin elegant S-curve on a yellow rounded square.</desc>
+  <g id="logo_mark">
+    <rect id="tile" x="80" y="80" width="352" height="352" rx="74" fill="#F0B646"/>
+    <path id="s_curve" d="M 152 347.5 C 213 347.5, 220 300.5, 250 259.5 S 317 164.5, 360 164.5" fill="none" stroke="#2B2425" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

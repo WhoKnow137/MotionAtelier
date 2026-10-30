@@ -1,0 +1,8 @@
+{
+  "enable": "houdini_version >= '20.0' and houdini_version < '23.0'",
+  "env": [
+    {"MOTION_ATELIER": "$HOUDINI_PACKAGE_PATH/MotionAtelier"},
+    {"PYTHONPATH": {"value": "$MOTION_ATELIER/python", "method": "prepend"}}
+  ],
+  "path": "$MOTION_ATELIER"
+}

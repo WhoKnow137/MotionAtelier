@@ -1,0 +1,29 @@
+MotionAtelier 0.4.3
+=======================
+
+MotionAtelier is a free, open-source (GPL-3.0-or-later) animation-curve panel for
+SideFX Houdini 20.0, 20.5, 21.0 and 22.0 on Windows. It needs nothing beyond Houdini
+itself; other Houdini versions skip the package.
+
+Install
+-------
+1. Close Houdini. If an older MotionAtelier is installed, delete its MotionAtelier
+   folder first (versions before 0.4.0 used a different layout).
+2. Copy everything inside the "packages" folder of this archive (the file
+   motion_atelier.json and the folder MotionAtelier) into your Houdini user
+   packages folder, for example:
+       %USERPROFILE%\Documents\houdini21.0\packages\
+   (or houdini20.5, houdini22.0, ...: once for each version you use). Create the
+   "packages" folder if it does not exist.
+3. Start Houdini. In any pane, open the "+" tab menu and choose
+   New Pane Tab Type > Misc > MotionAtelier  (or Python Panel > MotionAtelier).
+
+Uninstall
+---------
+Delete motion_atelier.json and the MotionAtelier folder from the packages folder.
+Your recipes, history and settings live in the "MotionAtelier" folder inside your
+Houdini user preference directory; delete it as well to remove all user data.
+
+MotionAtelier is licensed under the GNU GPL version 3 or later (LICENSE) with the
+Houdini integration permission (HOUDINI_EXCEPTION.txt). Houdini itself stays under
+SideFX's terms. This archive contains readable Python source only.

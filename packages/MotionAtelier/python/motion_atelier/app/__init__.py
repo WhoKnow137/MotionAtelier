@@ -1,0 +1,9 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 MotionAtelier contributors
+# This file is part of MotionAtelier, distributed under the GNU General Public License,
+# version 3 or (at your option) any later version, with the Houdini integration permission.
+# See LICENSE and HOUDINI_EXCEPTION.txt.
+"""Application layer: documents, local undo, pure planning, commands, results, strings.
+
+Never imports ``hou`` or Qt. Scene access goes through :class:`app.ports.HostPort`.
+"""
